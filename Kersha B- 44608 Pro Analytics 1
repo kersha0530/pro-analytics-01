@@ -1,0 +1,299 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "e397fb61-ec0b-40b6-aa95-a1508f6e8b14",
+   "metadata": {},
+   "source": [
+    "# 📓 Pro Analytics - Python Basics Demo\n",
+    "**Author:** Kersha Broussard (@kersha0530)  \n",
+    "**Repo:** [GitHub - Pro Analytics](https://github.com/kersha0530/pro-analytics-01)  \n",
+    "**Date:** January 2025  \n",
+    "\n",
+    "## 📌 Introduction\n",
+    "This notebook demonstrates Python fundamentals, including:\n",
+    "- Naming conventions\n",
+    "- Comments and docstrings\n",
+    "- Variables and type hints\n",
+    "- Built-in functions\n",
+    "- String formatting\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "50a1194e-1058-4e2a-aea9-4585cb511652",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def main():\n",
+    "    \"\"\"\n",
+    "    Main function to illustrate Python basics.\n",
+    "    Demonstrates:\n",
+    "    - Naming conventions\n",
+    "    - Comments and docstrings\n",
+    "    - Variables and type hints\n",
+    "    - Built-in functions\n",
+    "    - String formatting\n",
+    "    \"\"\"\n",
+    "    print(\"🔹 Starting MAIN function.\\n\")\n",
+    "\n",
+    "    # Naming Conventions\n",
+    "    print(\"Python files should be named using lowercase letters and underscores (_).\")\n",
+    "    print(\"Comments start with '#' and are not executed.\")\n",
+    "    print(\"  Multi-line comments use triple quotes (''' or \\\"\\\"\\\").\\n\")\n",
+    "\n",
+    "    # Variables & Type Hints\n",
+    "    print(\"🔹 Variables store values. Type hints are optional but recommended.\\n\")\n",
+    "\n",
+    "    example_number = 42  # Integer example\n",
+    "    count: int = 42  # Explicit integer type hint\n",
+    "    temp_F: float = 42.2  # Float example (temperature in Fahrenheit)\n",
+    "    user_name: str = \"Data Analyst\"  # String example\n",
+    "\n",
+    "    print(f\"Example Variables: {example_number=}, {count=}, {temp_F=}, {user_name=}.\\n\")\n",
+    "\n",
+    "    # String Formatting\n",
+    "    print(\"🔹 String Formatting\")\n",
+    "    print(f\"Example: f'Hello, {user_name}!' \\n\")\n",
+    "\n",
+    "    # Built-in Functions\n",
+    "    numbers = [1, 2, 3]\n",
+    "    print(f\"🔹 List of numbers: {numbers}\")\n",
+    "    print(f\"  Min value: {min(numbers)}\")\n",
+    "    print(f\"  Max value: {max(numbers)}\")\n",
+    "    print(f\"  Length: {len(numbers)}\\n\")\n",
+    "\n",
+    "    # Python Syntax Rules\n",
+    "    is_important: bool = True\n",
+    "    print(f\"✅ Python Indentation Matters: {is_important}!\")\n",
+    "    print(f\"✅ Python is Case-Sensitive: {is_important}!\\n\")\n",
+    "\n",
+    "    print(\"📌 Try modifying this script to experiment with Python basics!\\n\")\n",
+    "    print(\"🔹 Exiting MAIN function.\")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "8a7d3ba9-913d-4468-81a1-4694cb31da43",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "🔹 Starting MAIN function.\n",
+      "\n",
+      "Python files should be named using lowercase letters and underscores (_).\n",
+      "Comments start with '#' and are not executed.\n",
+      "  Multi-line comments use triple quotes (''' or \"\"\").\n",
+      "\n",
+      "🔹 Variables store values. Type hints are optional but recommended.\n",
+      "\n",
+      "Example Variables: example_number=42, count=42, temp_F=42.2, user_name='Data Analyst'.\n",
+      "\n",
+      "🔹 String Formatting\n",
+      "Example: f'Hello, Data Analyst!' \n",
+      "\n",
+      "🔹 List of numbers: [1, 2, 3]\n",
+      "  Min value: 1\n",
+      "  Max value: 3\n",
+      "  Length: 3\n",
+      "\n",
+      "✅ Python Indentation Matters: True!\n",
+      "✅ Python is Case-Sensitive: True!\n",
+      "\n",
+      "📌 Try modifying this script to experiment with Python basics!\n",
+      "\n",
+      "🔹 Exiting MAIN function.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Run the main function\n",
+    "main()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "4c4fdc04-3084-414d-becb-0ed9cd902497",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "🚀 DEMO - Ready for work.\n",
+      "🔹 Starting MAIN function.\n",
+      "\n",
+      "Python files should be named using lowercase letters and underscores (_).\n",
+      "Comments start with '#' and are not executed.\n",
+      "  Multi-line comments use triple quotes (''' or \"\"\").\n",
+      "\n",
+      "🔹 Variables store values. Type hints are optional but recommended.\n",
+      "\n",
+      "Example Variables: example_number=42, count=42, temp_F=42.2, user_name='Data Analyst'.\n",
+      "\n",
+      "🔹 String Formatting\n",
+      "Example: f'Hello, Data Analyst!' \n",
+      "\n",
+      "🔹 List of numbers: [1, 2, 3]\n",
+      "  Min value: 1\n",
+      "  Max value: 3\n",
+      "  Length: 3\n",
+      "\n",
+      "✅ Python Indentation Matters: True!\n",
+      "✅ Python is Case-Sensitive: True!\n",
+      "\n",
+      "📌 Try modifying this script to experiment with Python basics!\n",
+      "\n",
+      "🔹 Exiting MAIN function.\n",
+      "✅ DEMO - Execution complete.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if script is running as main\n",
+    "if __name__ == \"__main__\":\n",
+    "    print(\"🚀 DEMO - Ready for work.\")\n",
+    "    main()\n",
+    "    print(\"✅ DEMO - Execution complete.\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "32fab813-8138-4425-9902-2a0d773769e2",
+   "metadata": {},
+   "source": [
+    "# 📊 Pro Analytics - Statistics Calculation\n",
+    "**Author:** Kersha Broussard (@kersha0530)  \n",
+    "**Repo:** [GitHub - Pro Analytics](https://github.com/kersha0530/pro-analytics-01)  \n",
+    "**Date:** January 2025  \n",
+    "\n",
+    "## 📌 Overview  \n",
+    "This notebook calculates basic statistics (min, max, mean, standard deviation) for a given dataset.  \n",
+    "It demonstrates:\n",
+    "- Importing standard and custom libraries\n",
+    "- Using Python's built-in statistics module\n",
+    "- Logging results for tracking\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "9a94122a-1905-4067-8baf-25b58135d485",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import logging\n",
+    "\n",
+    "# Create a basic logger\n",
+    "logging.basicConfig(level=logging.INFO)\n",
+    "logger = logging.getLogger(\"pro-analytics\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "3ee7005a-712b-4625-8910-3879c7fd8136",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ModuleNotFoundError",
+     "evalue": "No module named 'utils_logger'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[19], line 5\u001b[0m\n\u001b[0;32m      2\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mstatistics\u001b[39;00m\n\u001b[0;32m      4\u001b[0m \u001b[38;5;66;03m# Import from local project modules\u001b[39;00m\n\u001b[1;32m----> 5\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mutils_logger\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m logger\n",
+      "\u001b[1;31mModuleNotFoundError\u001b[0m: No module named 'utils_logger'"
+     ]
+    }
+   ],
+   "source": [
+    "# Import from Python Standard Library for mathematical statistics\n",
+    "import statistics\n",
+    "\n",
+    "# Import from local project modules\n",
+    "from utils_logger import logger  # Ensure utils_logger.py exists in the working directory\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42fe0ea6-f2c2-401e-bcc0-23f087a9d196",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def calculate_min(scores: list) -> float:\n",
+    "    \"\"\"Return the minimum value in the list.\"\"\"\n",
+    "    return min(scores)\n",
+    "\n",
+    "\n",
+    "def calculate_max(scores: list) -> float:\n",
+    "    \"\"\"Return the maximum value in the list.\"\"\"\n",
+    "    return max(scores)\n",
+    "\n",
+    "\n",
+    "def calculate_mean(scores: list) -> float:\n",
+    "    \"\"\"Return the mean (average) of the list.\"\"\"\n",
+    "    return statistics.mean(scores)\n",
+    "\n",
+    "\n",
+    "def calculate_standard_deviation(scores: list) -> float:\n",
+    "    \"\"\"Return the standard deviation of the list.\"\"\"\n",
+    "    return statistics.stdev(scores)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "05fcf1c9-b78e-434d-80c6-439993f3b64f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def main(scores: list) -> None:\n",
+    "    \"\"\"\n",
+    "    Main function to calculate and log statistics for a given list of scores.\n",
+    "\n",
+    "    Args:\n",
+    "        scores (list): A list of numbers to calculate statistics for.\n",
+    "    \"\"\"\n",
+    "    logger.info(\"Starting MAIN function.\")\n",
+    "\n",
+    "    # Calculate and log each statistic\n",
+    "    logger.info(f\"Scores: {scores}\")\n",
+    "    logger.info(f\"Minimum: {calculate_min(scores):.2f}\")\n",
+    "    logger.info(f\"Maximum: {calculate_max(scores):.2f}\")\n",
+    "    logger.info(f\"Mean: {calculate_mean(scores):.2f}\")\n",
+    "    logger.info(f\"Standard Deviation: {calculate_standard_deviation(scores):.2f}\")\n",
+    "\n",
+    "    logger.info(\"Exiting MAIN function.\")\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
